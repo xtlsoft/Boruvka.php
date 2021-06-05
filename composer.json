@@ -1,0 +1,21 @@
+{
+    "name": "xtlsoft/boruvka",
+    "authors": [
+        {
+            "name": "Tianle Xu",
+            "email": "xtl@xtlsoft.top"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boruvka\\": "./src/"
+        },
+        "files": [
+            "./src/constants.php"
+        ]
+    }
+}
